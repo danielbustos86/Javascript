@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+<div id="div1">
+	<div id="div2">
+	<p>
+		<input type="button" id="btn" value="Click Aqui!">
+	</p>
+	<div>
+<div>
+</body>
+<script>
+window.onload=function() {
+
+
+        var a= document.getElementById("btn");
+        var zona= document.getElementById("div1");
+        var subzona=document.getElementById("div2");
+        
+
+        a.addEventListener("click",f1);
+        subzona.addEventListener("click",f2);
+        zona.addEventListener("click",f3);
+            
+    }
+
+    function f1() {
+
+        console.log("has pulsado en el boton Click Aqui!");
+    }
+    function f2() {
+
+        console.log("has pulsado en el DIV2")
+    }
+
+    function f3() {
+
+        console.log("has pulsado en la DIV1")
+    }
+</script>
+</html>
+	
